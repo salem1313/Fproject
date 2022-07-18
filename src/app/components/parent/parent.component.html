@@ -1,0 +1,7 @@
+
+<!-- <app-child [nameFromParent]="name"></app-child> -->
+
+
+<app-child (childEvent)="message=$event"></app-child>
+
+{{message}}
